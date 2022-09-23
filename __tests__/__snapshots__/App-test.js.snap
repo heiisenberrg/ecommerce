@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render screen correctly Cart 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#e0e0e0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginLeft": 16,
+        "marginTop": 52,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": 8,
+          "height": 30,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "textAlign": "center",
+          }
+        }
+      >
+        &lt;
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#000",
+          "fontSize": 32,
+          "fontWeight": "900",
+          "marginLeft": 24,
+          "textAlign": "center",
+        }
+      }
+    >
+      Cart
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flex": 1,
+        "marginHorizontal": 16,
+        "marginVertical": 24,
+      }
+    }
+    data={Array []}
+    extraData={Object {}}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0, 0, 0, 0.4)",
+        "bottom": 0,
+        "padding": 12,
+        "paddingBottom": 60,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "marginRight": 12,
+          "textAlign": "right",
+        }
+      }
+    >
+      Total		$ 0.00
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`render screen correctly Home 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#e0e0e0",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#000",
+        "fontSize": 32,
+        "fontWeight": "900",
+        "marginTop": 52,
+        "textAlign": "center",
+      }
+    }
+  >
+    Products
+  </Text>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flex": 1,
+        "marginHorizontal": 12,
+        "marginVertical": 24,
+      }
+    }
+    data={Array []}
+    extraData={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
